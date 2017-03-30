@@ -1,0 +1,6 @@
+[{
+  "name": "Applications",
+  "code": "applications",
+  "module_link": "all/applicationsController.js",
+  "icon": "fa fa-ticket"
+}]

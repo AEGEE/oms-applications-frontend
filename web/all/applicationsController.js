@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const baseUrl = baseUrlRepository['oms-applications'];
+  const baseUrl = baseUrlRepository['omsapplications'];
   const apiUrl = `${baseUrl}api/`;
 
   const showError = (err) => {
@@ -31,7 +31,7 @@
         data: { pageTitle: 'Applications' },
         views: {
           'pageContent@app': {
-            templateUrl: `${baseUrl}/all/welcome.html`,
+            templateUrl: `${baseUrl}all/welcome.html`,
             controller: 'WelcomeController as vm',
           },
         },
@@ -39,7 +39,8 @@
   }
 
   function WelcomeController($scope, $http) {
-    alert("Hallo " + baseUrlRepository);
+    console.log(baseUrlRepository);
+    $scope.message = "heyho";
   }
 
 

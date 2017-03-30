@@ -1,6 +1,10 @@
-[{
-  "name": "Applications",
-  "code": "applications",
-  "module_link": "all/applicationsController.js",
-  "icon": "fa fa-ticket"
-}]
+{
+  "name": "OMS Applications",
+  "code": "omsapplications",
+  "pages": [{
+    "name": "Applications",
+    "code": "applications",
+    "module_link": "all/applicationsController.js",
+    "icon": "fa fa-ticket"
+  }]
+}
